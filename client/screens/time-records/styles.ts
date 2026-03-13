@@ -1,0 +1,201 @@
+import { StyleSheet } from 'react-native';
+
+export const createStyles = () => {
+  return StyleSheet.create({
+    header: {
+      paddingTop: 20,
+      paddingBottom: 16,
+      paddingHorizontal: 24,
+    },
+    headerTitle: {
+      fontSize: 28,
+      fontWeight: '800',
+      color: '#2D3436',
+    },
+    headerSubtitle: {
+      fontSize: 14,
+      color: '#636E72',
+      marginTop: 4,
+    },
+    statsContainer: {
+      paddingHorizontal: 24,
+      marginBottom: 20,
+    },
+    shadowDark: {
+      shadowColor: '#D1D9E6',
+      shadowOffset: { width: 6, height: 6 },
+      shadowOpacity: 0.7,
+      shadowRadius: 8,
+      borderRadius: 24,
+      marginBottom: 16,
+    },
+    shadowLight: {
+      shadowColor: '#FFFFFF',
+      shadowOffset: { width: -6, height: -6 },
+      shadowOpacity: 0.9,
+      shadowRadius: 8,
+      backgroundColor: '#F0F0F3',
+      borderRadius: 24,
+      padding: 20,
+    },
+    statsLabel: {
+      fontSize: 14,
+      fontWeight: '600',
+      color: '#636E72',
+    },
+    statsValue: {
+      fontSize: 28,
+      fontWeight: '800',
+      color: '#6C63FF',
+      marginTop: 8,
+    },
+    statsSub: {
+      fontSize: 14,
+      color: '#636E72',
+      marginTop: 4,
+    },
+    sectionHeader: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      paddingHorizontal: 24,
+      marginBottom: 12,
+    },
+    sectionTitle: {
+      fontSize: 18,
+      fontWeight: '700',
+      color: '#2D3436',
+    },
+    scrollView: {
+      flex: 1,
+    },
+    scrollContent: {
+      paddingHorizontal: 24,
+      paddingBottom: 120,
+    },
+    cardHeader: {
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    iconContainer: {
+      width: 48,
+      height: 48,
+      borderRadius: 24,
+      backgroundColor: 'rgba(108,99,255,0.12)',
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    cardContent: {
+      flex: 1,
+      marginLeft: 14,
+    },
+    cardTitle: {
+      fontSize: 16,
+      fontWeight: '700',
+      color: '#2D3436',
+    },
+    cardDescription: {
+      fontSize: 13,
+      color: '#636E72',
+      marginTop: 2,
+    },
+    cardRight: {
+      alignItems: 'flex-end',
+    },
+    durationText: {
+      fontSize: 16,
+      fontWeight: '700',
+      color: '#6C63FF',
+    },
+    cardFooter: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      marginTop: 12,
+      paddingTop: 12,
+      borderTopWidth: 1,
+      borderTopColor: 'rgba(255,255,255,0.3)',
+    },
+    dateInfo: {
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    dateText: {
+      fontSize: 13,
+      color: '#636E72',
+      marginLeft: 6,
+    },
+    timeInfo: {
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    timeText: {
+      fontSize: 13,
+      color: '#636E72',
+      marginLeft: 4,
+    },
+    notesSection: {
+      marginTop: 12,
+      paddingTop: 12,
+      borderTopWidth: 1,
+      borderTopColor: 'rgba(255,255,255,0.3)',
+    },
+    notesText: {
+      fontSize: 13,
+      color: '#636E72',
+      fontStyle: 'italic',
+    },
+    emptyContainer: {
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingVertical: 60,
+    },
+    emptyText: {
+      fontSize: 16,
+      fontWeight: '600',
+      color: '#636E72',
+      marginTop: 16,
+    },
+    emptySub: {
+      fontSize: 14,
+      color: '#B2BEC3',
+      marginTop: 8,
+    },
+    fab: {
+      position: 'absolute',
+      bottom: 100,
+      right: 24,
+      width: 60,
+      height: 60,
+      borderRadius: 30,
+      backgroundColor: '#6C63FF',
+      justifyContent: 'center',
+      alignItems: 'center',
+      shadowColor: '#6C63FF',
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.35,
+      shadowRadius: 8,
+      elevation: 8,
+    },
+    exportButton: {
+      position: 'absolute',
+      bottom: 100,
+      left: 24,
+      flexDirection: 'row',
+      alignItems: 'center',
+      backgroundColor: '#FFFFFF',
+      paddingHorizontal: 16,
+      paddingVertical: 12,
+      borderRadius: 24,
+      shadowColor: '#D1D9E6',
+      shadowOffset: { width: 2, height: 2 },
+      shadowOpacity: 0.3,
+      shadowRadius: 4,
+      elevation: 4,
+    },
+    exportButtonText: {
+      marginLeft: 8,
+      fontWeight: '700',
+    },
+  });
+};
