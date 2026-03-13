@@ -16,7 +16,8 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": `com.anonymous.x${projectId || '0'}`
     },
     "android": {
       "adaptiveIcon": {

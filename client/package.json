@@ -9,7 +9,9 @@
     "install-missing": "node ./scripts/install-missing-deps.js",
     "lint": "expo lint",
     "start": "expo start --web --clear",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "jest": {
     "preset": "jest-expo"
@@ -25,6 +27,7 @@
     "@react-navigation/bottom-tabs": "^7.2.0",
     "@react-navigation/native": "^7.0.14",
     "dayjs": "^1.11.19",
+    "eas-cli": "^18.3.0",
     "expo": "54.0.33",
     "expo-auth-session": "~7.0.10",
     "expo-av": "~16.0.8",
@@ -92,5 +95,6 @@
     "tsx": "^4.21.0",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.32.1"
-  }
+  },
+  "version": "1.0.0"
 }
